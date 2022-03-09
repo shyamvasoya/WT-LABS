@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="number"></h1>
+
+    <button onclick="get_num()">get number</button>
+
+</body>
+<script>
+    function get_num()
+{
+    let x=prompt("enter the number");
+
+
+    if(x%2==0){
+        document.getElementById("number").innerHTML='<h1 style="color:red">this number is even</h1>'
+    }
+    else{
+        document.getElementById('number').innerHTML='<h1 style="color:green">this number is odd</h1>'
+   }
+}
+</script>
+</html>
