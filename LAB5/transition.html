@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transition (20IT024)</title>
+
+    <style>
+        div {
+            width: 100px;
+            height: 100px;
+            background: black;
+            transition-property: width;
+            transition-duration: 2s;
+            transition-timing-function: linear;
+        }
+        
+        #div1 {
+            transition-timing-function: linear;
+        }
+        
+        #div2 {
+            transition-timing-function: ease;
+        }
+        
+        #div3 {
+            transition-timing-function: ease-in;
+        }
+        
+        #div4 {
+            transition-timing-function: ease-out;
+        }
+        
+        #div5 {
+            transition-timing-function: ease-in-out;
+        }
+        
+        div:hover {
+            width: 500px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 style="font-family: 'Times New Roman', Times, serif;">Transition Effect using CSS :</h1>
+
+    <h3 id="div1" style="font-family: Arial, Helvetica, sans-serif;">1) Transition Timing Function - Linear :</h3>
+    <div id="div1" style="font-family: Arial, Helvetica, sans-serif;">Transition Timing Function - Linear :</div>
+    <h3 id="div2" style="font-family: Arial, Helvetica, sans-serif;">2) Transition Timing Function - Ease :</h3>
+    <div id="div2" style="font-family: Arial, Helvetica, sans-serif;">Transition Timing Function - Ease :</div>
+    <h3 id="div3" style="font-family: Arial, Helvetica, sans-serif;">3) Transition Timing Function - Ease-In :</h3>
+    <div id="div3" style="font-family: Arial, Helvetica, sans-serif;">Transition Timing Function - Ease-In :</div>
+    <h3 id="div4" style="font-family: Arial, Helvetica, sans-serif;">4) Transition Timing Function - Ease-Out :</h3>
+    <div id="div4" style="font-family: Arial, Helvetica, sans-serif;">Transition Timing Function - Ease-Out :</div>
+    <h3 id="div5" style="font-family: Arial, Helvetica, sans-serif;">5) Transition Timing Function - Ease-In-Out :</h3>
+    <div id="div5" style="font-family: Arial, Helvetica, sans-serif;">Transition Timing Function - Ease-In-Out :</div>
+</body>
+
+</html>
